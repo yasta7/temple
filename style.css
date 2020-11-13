@@ -1,9 +1,12 @@
 *{ overflow: hidden; width: 100%;
     box-sizing: border-box;
-
+    padding: 0;
+    margin: 0;
 }
 .first{
-    background-size: auto;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
     background-image: url(1.jpeg);
     width: 100%;
     height:400px ;
@@ -19,8 +22,10 @@
     
 }
 .dwn{
+    padding-top: 100px;
     text-align: center;
     color: white;
+   
 }
 .mot{ word-spacing: 50px;
     width: 100%;
@@ -28,4 +33,7 @@ font-size: 20px;
 }
 .coller{
     color: #4cd137;
+}
+.h4{
+    padding-top: 100px;
 }
